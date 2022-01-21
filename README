@@ -15,10 +15,10 @@ Code is structured along the following single-instance classes:
 
 	MemoryClass - The memory model
 	ParserClass - The parser
-	LispClass	- The interpreter
+	LispClass   - The interpreter
 
 The supported types are Symbol (character string with no blanks), Number(long integer) and
 Cons (list). Code is extensively documented. The supported  built-in functions are
-documented in struct Func of LispClass.
+shown in struct Func of LispClass.
 
 
