@@ -2,7 +2,7 @@
 #include "lisp.h"
 
 /**
- * A simple, well documented Lisp interpreter written in C++.
+ * A simple, well-documented Lisp interpreter written in C++.
  * 
  * Follows as much as possible the Common Lisp standard as specified in:
  * 
