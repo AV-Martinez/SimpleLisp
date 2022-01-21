@@ -1,0 +1,16 @@
+A simple, well documented Lisp interpreter written in C++.
+
+Follows as much as possible the Common Lisp standard as specified in:
+
+	Common Lisp the Language, 2nd Edition
+	Guy L. Steele
+	https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
+
+This is experimental and educational code, no major Lisp applications are expected to be built 
+using this interpreter. Code cleaness is prefered to code efficiency. Features that would 
+lead to becoming more compliant to the CL standard or facilitate the creation of large 
+Lisp applications at the expense of making the code more complex are disregarded.
+
+The supported types are Symbol (character string with no blanks), Number(long integer) and
+Cons (list).
+
