@@ -11,6 +11,14 @@ using this interpreter. Code cleaness is prefered to code efficiency. Features t
 lead to becoming more compliant to the CL standard or facilitate the creation of large 
 Lisp applications at the expense of making the code more complex are disregarded.
 
+Code is structured along the following single-instance classes:
+
+	MemoryClass - The memory model
+	ParserClass - The parser
+	LispClass	- The interpreter
+
 The supported types are Symbol (character string with no blanks), Number(long integer) and
-Cons (list).
+Cons (list). Code is extensively documented. The supported  built-in functions are
+documented in struct Func of LispClass.
+
 
